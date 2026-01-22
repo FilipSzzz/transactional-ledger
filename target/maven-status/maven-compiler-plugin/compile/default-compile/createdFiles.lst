@@ -1,8 +1,10 @@
+com/filipszlagowski/ledger/account/adapter/in/web/AccountController.class
+com/filipszlagowski/ledger/account/application/port/out/LoadAccountPort.class
 com/filipszlagowski/ledger/account/application/port/in/CreateAccountUseCase.class
 com/filipszlagowski/ledger/account/adapter/in/web/CreateAccountRequest.class
 com/filipszlagowski/ledger/account/application/port/out/SaveAccountPort.class
 com/filipszlagowski/ledger/account/domain/Account.class
-com/filipszlagowski/ledger/account/adapter/in/web/AccountController.class
+com/filipszlagowski/ledger/account/adapter/in/web/DepositRequest.class
 com/filipszlagowski/ledger/account/application/service/AccountService.class
 com/filipszlagowski/ledger/account/adapter/out/persistence/AccountRepository.class
 com/filipszlagowski/ledger/TransactionalLedgerApplication.class

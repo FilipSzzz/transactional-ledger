@@ -1,9 +1,12 @@
 /Users/filipszlagowski/CODE/transactional-ledger/src/main/java/com/filipszlagowski/ledger/account/adapter/out/persistence/AccountPersistenceAdapter.java
+/Users/filipszlagowski/CODE/transactional-ledger/src/main/java/com/filipszlagowski/ledger/account/application/port/in/DepositUseCase.java
 /Users/filipszlagowski/CODE/transactional-ledger/src/main/java/com/filipszlagowski/ledger/account/adapter/in/web/CreateAccountRequest.java
+/Users/filipszlagowski/CODE/transactional-ledger/src/main/java/com/filipszlagowski/ledger/account/adapter/in/web/DepositRequest.java
 /Users/filipszlagowski/CODE/transactional-ledger/src/main/java/com/filipszlagowski/ledger/account/application/port/in/CreateAccountUseCase.java
 /Users/filipszlagowski/CODE/transactional-ledger/src/main/java/com/filipszlagowski/ledger/account/adapter/in/web/AccountController.java
 /Users/filipszlagowski/CODE/transactional-ledger/src/main/java/com/filipszlagowski/ledger/account/adapter/out/persistence/AccountRepository.java
 /Users/filipszlagowski/CODE/transactional-ledger/src/main/java/com/filipszlagowski/ledger/account/application/service/AccountService.java
 /Users/filipszlagowski/CODE/transactional-ledger/src/main/java/com/filipszlagowski/ledger/TransactionalLedgerApplication.java
 /Users/filipszlagowski/CODE/transactional-ledger/src/main/java/com/filipszlagowski/ledger/account/application/port/out/SaveAccountPort.java
+/Users/filipszlagowski/CODE/transactional-ledger/src/main/java/com/filipszlagowski/ledger/account/application/port/out/LoadAccountPort.java
 /Users/filipszlagowski/CODE/transactional-ledger/src/main/java/com/filipszlagowski/ledger/account/domain/Account.java

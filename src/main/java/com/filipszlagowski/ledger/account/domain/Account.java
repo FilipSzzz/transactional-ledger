@@ -22,4 +22,16 @@ public class Account {
 
     private String name;
 
+    public Account(Long id, BigDecimal balance, String name) {
+        this.id = id;
+        this.balance = balance;
+        this.name = name;
+    }
+
+    public void deposit(BigDecimal amount) {
+        if (amount.compareTo(BigDecimal.ZERO) <= 0) {
+            throw new IllegalArgumentException("Deposit amount must be positive");
+        }
+        this.balance = this.balance.add(amount);
+    }
 }

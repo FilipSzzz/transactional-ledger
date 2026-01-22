@@ -5,4 +5,5 @@ import java.util.Optional;
 
 public interface LoadAccountPort {
     Optional<Account> loadAccount(Long accountId);
+    Optional<Account> loadAccountLocked(Long accountId);
 }

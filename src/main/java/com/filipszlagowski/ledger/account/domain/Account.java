@@ -10,8 +10,6 @@ import java.math.BigDecimal;
 @Entity
 @Table(name = "accounts")
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class Account {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // automatyczna inkrementacja
@@ -21,6 +19,9 @@ public class Account {
     private BigDecimal balance;
 
     private String name;
+
+    public Account() {
+    }
 
     public Account(Long id, BigDecimal balance, String name) {
         this.id = id;
@@ -33,5 +34,19 @@ public class Account {
             throw new IllegalArgumentException("Deposit amount must be positive");
         }
         this.balance = this.balance.add(amount);
+    }
+    public void withdraw(BigDecimal amount) {
+        if (amount.compareTo(BigDecimal.ZERO) <= 0) {
+            throw new IllegalArgumentException("Withdraw amount must be positive");
+        }
+        this.balance = this.balance.subtract(amount);
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public BigDecimal getBalance() {
+        return balance;
     }
 }

@@ -15,12 +15,17 @@ public class AccountPersistenceAdapter implements SaveAccountPort, LoadAccountPo
     }
 
     @Override
-    public void save(Account account) {
-        accountRepository.save(account);
+    public Account save(Account account) {
+        return accountRepository.save(account);
     }
 
     @Override
     public Optional<Account> loadAccount(Long accountId) {
         return accountRepository.findById(accountId);
+    }
+
+    @Override
+    public Optional<Account> loadAccountLocked(Long accountId) {
+        return accountRepository.findByIdWithLock(accountId);
     }
 }

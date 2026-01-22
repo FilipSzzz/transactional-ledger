@@ -1,5 +1,7 @@
 com/filipszlagowski/ledger/account/adapter/in/web/AccountController.class
+com/filipszlagowski/ledger/account/adapter/in/web/WithdrawRequest.class
 com/filipszlagowski/ledger/account/application/port/out/LoadAccountPort.class
+com/filipszlagowski/ledger/account/application/port/in/WithdrawUseCase.class
 com/filipszlagowski/ledger/account/application/port/in/CreateAccountUseCase.class
 com/filipszlagowski/ledger/account/adapter/in/web/CreateAccountRequest.class
 com/filipszlagowski/ledger/account/application/port/out/SaveAccountPort.class
